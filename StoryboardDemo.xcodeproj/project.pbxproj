@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CAF39518CC437A00F11041 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CAF39418CC437A00F11041 /* User.m */; };
+		00CAF39818CC466F00F11041 /* StoryboardDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00CAF39618CC466F00F11041 /* StoryboardDemo.xcdatamodeld */; };
+		00CAF39A18CC48B800F11041 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CAF39918CC48B800F11041 /* CoreData.framework */; };
 		00D4F7B918CB7DA000DF692C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D4F7B818CB7DA000DF692C /* Foundation.framework */; };
 		00D4F7BB18CB7DA000DF692C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D4F7BA18CB7DA000DF692C /* CoreGraphics.framework */; };
 		00D4F7BD18CB7DA000DF692C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D4F7BC18CB7DA000DF692C /* UIKit.framework */; };
@@ -22,6 +25,8 @@
 		00D4F7DD18CB7DA000DF692C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D4F7BC18CB7DA000DF692C /* UIKit.framework */; };
 		00D4F7E518CB7DA000DF692C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00D4F7E318CB7DA000DF692C /* InfoPlist.strings */; };
 		00D4F7E718CB7DA000DF692C /* StoryboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F7E618CB7DA000DF692C /* StoryboardDemoTests.m */; };
+		00D4F7F418CB992300DF692C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F7F318CB992300DF692C /* TableViewController.m */; };
+		00D4F7F718CBABFF00DF692C /* TableNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F7F618CBABFF00DF692C /* TableNumberViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00CAF39318CC437A00F11041 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		00CAF39418CC437A00F11041 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		00CAF39718CC466F00F11041 /* StoryboardDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoryboardDemo.xcdatamodel; sourceTree = "<group>"; };
+		00CAF39918CC48B800F11041 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		00D4F7B518CB7DA000DF692C /* StoryboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D4F7B818CB7DA000DF692C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00D4F7BA18CB7DA000DF692C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +64,10 @@
 		00D4F7E218CB7DA000DF692C /* StoryboardDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardDemoTests-Info.plist"; sourceTree = "<group>"; };
 		00D4F7E418CB7DA000DF692C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00D4F7E618CB7DA000DF692C /* StoryboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardDemoTests.m; sourceTree = "<group>"; };
+		00D4F7F218CB992300DF692C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		00D4F7F318CB992300DF692C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		00D4F7F518CBABFF00DF692C /* TableNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableNumberViewController.h; sourceTree = "<group>"; };
+		00D4F7F618CBABFF00DF692C /* TableNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableNumberViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CAF39A18CC48B800F11041 /* CoreData.framework in Frameworks */,
 				00D4F7BB18CB7DA000DF692C /* CoreGraphics.framework in Frameworks */,
 				00D4F7BD18CB7DA000DF692C /* UIKit.framework in Frameworks */,
 				00D4F7B918CB7DA000DF692C /* Foundation.framework in Frameworks */,
@@ -84,6 +98,7 @@
 		00D4F7AC18CB7DA000DF692C = {
 			isa = PBXGroup;
 			children = (
+				00CAF39618CC466F00F11041 /* StoryboardDemo.xcdatamodeld */,
 				00D4F7BE18CB7DA000DF692C /* StoryboardDemo */,
 				00D4F7E018CB7DA000DF692C /* StoryboardDemoTests */,
 				00D4F7B718CB7DA000DF692C /* Frameworks */,
@@ -103,6 +118,7 @@
 		00D4F7B718CB7DA000DF692C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00CAF39918CC48B800F11041 /* CoreData.framework */,
 				00D4F7B818CB7DA000DF692C /* Foundation.framework */,
 				00D4F7BA18CB7DA000DF692C /* CoreGraphics.framework */,
 				00D4F7BC18CB7DA000DF692C /* UIKit.framework */,
@@ -122,6 +138,12 @@
 				00D4F7D118CB7DA000DF692C /* ViewController.m */,
 				00D4F7D318CB7DA000DF692C /* Images.xcassets */,
 				00D4F7BF18CB7DA000DF692C /* Supporting Files */,
+				00D4F7F218CB992300DF692C /* TableViewController.h */,
+				00D4F7F318CB992300DF692C /* TableViewController.m */,
+				00D4F7F518CBABFF00DF692C /* TableNumberViewController.h */,
+				00D4F7F618CBABFF00DF692C /* TableNumberViewController.m */,
+				00CAF39318CC437A00F11041 /* User.h */,
+				00CAF39418CC437A00F11041 /* User.m */,
 			);
 			path = StoryboardDemo;
 			sourceTree = "<group>";
@@ -255,7 +277,11 @@
 			files = (
 				00D4F7D218CB7DA000DF692C /* ViewController.m in Sources */,
 				00D4F7C918CB7DA000DF692C /* AppDelegate.m in Sources */,
+				00CAF39518CC437A00F11041 /* User.m in Sources */,
+				00CAF39818CC466F00F11041 /* StoryboardDemo.xcdatamodeld in Sources */,
 				00D4F7C518CB7DA000DF692C /* main.m in Sources */,
+				00D4F7F718CBABFF00DF692C /* TableNumberViewController.m in Sources */,
+				00D4F7F418CB992300DF692C /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryboardDemo/StoryboardDemo-Prefix.pch";
 				INFOPLIST_FILE = "StoryboardDemo/StoryboardDemo-Info.plist";
@@ -405,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryboardDemo/StoryboardDemo-Prefix.pch";
 				INFOPLIST_FILE = "StoryboardDemo/StoryboardDemo-Info.plist";
@@ -474,6 +502,7 @@
 				00D4F7EC18CB7DA000DF692C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00D4F7ED18CB7DA000DF692C /* Build configuration list for PBXNativeTarget "StoryboardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -482,8 +511,22 @@
 				00D4F7EF18CB7DA000DF692C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00CAF39618CC466F00F11041 /* StoryboardDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00CAF39718CC466F00F11041 /* StoryboardDemo.xcdatamodel */,
+			);
+			currentVersion = 00CAF39718CC466F00F11041 /* StoryboardDemo.xcdatamodel */;
+			path = StoryboardDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 00D4F7AD18CB7DA000DF692C /* Project object */;
 }
